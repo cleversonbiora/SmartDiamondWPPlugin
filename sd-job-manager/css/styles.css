@@ -1,0 +1,177 @@
+/*********************Vagas***************************/
+@font-face {
+    font-family: job-manager;
+    src: url(job-manager.woff);
+}
+#job_description {
+    text-align: left;
+}
+.search_jobs, .search_resumes, .cluster div, .job-type, .price-option__title, .entry-header__featured-image:hover .overlay, .widget_price_filter .ui-slider-horizontal .ui-slider-range {
+    background-color: #5aa641;
+}
+.search_jobs, .search_resumes {
+    padding: 30px;
+    box-shadow: inset 0 4px 0 rgba(255,255,255,.5);
+}
+.job_filters .job_types {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 1px solid #ccc;
+    border-width: 0 1px;
+      background: #ffffff;
+}
+.screen-reader-text, .search_jobs label, .search_resumes label, .site-description {
+    position: absolute !important;
+    clip: rect(1px,1px,1px,1px);
+}
+.search_jobs>div .chosen-container, .search_jobs>div .select, .search_jobs>div input, .search_jobs>div select, .search_resumes>div .chosen-container, .search_resumes>div .select, .search_resumes>div input, .search_resumes>div select {
+    width: 100%;
+    border: 0;
+}
+.clear:after, .entry-content .job_listing_packages_title:after, .job_types:after, .search_jobs:after, .search_resumes:after, .searchform:after {
+    clear: both;
+}
+.search_jobs input{
+  font-size: 16px;
+    padding: 10px 14px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+ }
+.search_jobs  select{
+  font-size: 19px;
+    padding: 10px 14px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+ }
+.job_types li {
+    font: 700 12px/normal Montserrat,sans-serif !Important;
+    text-transform: uppercase !Important;
+    border-bottom: 1px solid #ccc !Important;
+    padding: 20px !Important;
+    width: 100% !Important;
+    text-align: center !Important;
+}
+.chosen-single{
+      font-size: 16px !important;
+    padding: 10px 14px !important;
+    background: #fff !important;
+    border: 1px solid #ccc !important;
+    border-radius: 6px !important;
+    width: 100% !important;
+	  height: 44px !important;
+}
+.rss_link{
+  display:none !Important;
+  }
+  li.job_listing-type.job-type {
+    background-color: #2aa641;
+}
+  .job-type, .job_listing-type, .single-product .page-header .sale .onsale {
+    font: 700 12px/normal Montserrat,sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff !Important;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 3px 10px;
+}
+  .job_listing-date, .resume-date {
+    font-size: 14px;
+}
+li.date {
+    text-align: center;
+}
+ul.job_types {
+    display: none !Important;
+}
+.job_listings .location:before, .resume-location:before, .resume_listing-location:before {
+    content: "\f041";
+    font-size: 22px;
+    vertical-align: middle;
+    margin: -1px 4px 0 0;
+		    font-family: FontAwesome;
+}
+.showing_jobs, .showing_resumes {
+    font-size: 1em;
+    text-align: left;
+    background: #fafafa;
+    border: 1px solid #ccc;
+    border-width: 1px 1px 0;
+    padding: 15px 20px;
+}
+a {
+    color: inherit;
+}
+ul.job_listings .job_listing a:hover, li.type-resume:hover, .job_position_featured a{
+    box-shadow: inset 5px 0 0 #5aa641;
+}
+.job_position_featured a{
+    background: #FFF !Important;;
+}
+.chosen-single b {
+    margin-top: 10px;
+}
+.showing_jobs.wp-job-manager-showing-all {
+    display: none !Important;
+}
+li.job-type {
+    background-color: #5aa641 !Important;
+}
+ul.job-listing-meta.meta {
+    display: inline-block;
+}
+.single_job_listing {
+    text-align: center;
+}
+@media screen and (min-width: 769px){
+.jobify-search-jobs-category div.search_categories, .jobify-search-jobs-category div.search_keywords, .jobify-search-jobs-category div.search_location, .jobify-search-jobs-category div.search_region, .search_jobs div.search_categories, .search_jobs div.search_keywords, .search_jobs div.search_location, .search_jobs div.search_region, .search_resumes div.search_categories, .search_resumes div.search_keywords, .search_resumes div.search_location, .search_resumes div.search_region, .wp-resume-manager-categories-enabled .search_resumes div.search_categories, .wp-resume-manager-categories-enabled .search_resumes div.search_keywords, .wp-resume-manager-categories-enabled .search_resumes div.search_location, .wp-resume-manager-categories-enabled .search_resumes div.search_region {
+    width: 39% !Important;
+    margin-bottom: 0 !important;
+	}
+  .search_jobs>div, .search_resumes>div {
+    float: left !important;
+}
+.job_listings .position h3 {
+    font-size: 18px !IMportant;
+}
+.search_jobs div.search_keywords, .search_jobs div.search_location, .search_jobs div.search_region, .search_resumes div.search_keywords, .search_resumes div.search_location, .search_jobs div.search_categories, .search_resumes div.search_region {
+    margin-right: 2% !important;
+    margin-left: 0 !important;
+	    padding: 0 !Important;
+	    clear: inherit !Important;
+}
+	  .search_submit{
+		width: 16% !Important;
+}
+.job_types li {
+    border: 1px solid #ccc !important;
+    border-width: 0 1px 1px 0 !important;
+    width: auto !important;
+    float: left !important;
+}
+}
+/*********************Fim Vagas***********************/
+.main-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.main-title h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+}
+a.application_button {
+    color: #fff;
+    background-color: #5aa641;
+    border: none;
+    padding: 10px;
+}
