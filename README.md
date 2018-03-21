@@ -1,0 +1,2 @@
+# SmartDiamondWPPlugin
+SmartDiamond WP Plugin
